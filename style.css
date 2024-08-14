@@ -1,0 +1,170 @@
+.bottom-part{
+  top: 480px;
+  left: 300px;
+  width: 440px;
+  height: 80px;
+  position: relative;
+  background-color: #A60000;
+}
+
+.edge-part{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  top: 258px;
+  position: absolute;
+}
+
+.edge-part-left{
+  left: 309px;
+  border-width: 0 0 230px 130px;
+  border-color: transparent transparent #A60000 transparent;
+}
+
+.edge-part-right{
+  left: 618px;
+  border-width: 230px 0 0 130px;
+  border-color: transparent transparent transparent #A60000;
+}
+
+.mid-part{
+  top: 170px;
+  left: 430px;
+  position: relative;
+  width: 180px;
+  height: 230px;
+  background-color: #A60000;
+  display: flex;
+}
+
+.outer-circle {
+  background: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  box-shadow: 0 0 0 50px whitesmoke;
+  margin: auto;
+  top: 30px;
+}
+
+.top-part{
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 30px;
+  top: 228px;
+}
+
+.top-part-left{
+  left: 470px;
+}
+
+.top-part-right{
+  left: 565px;
+}
+
+.tube-top{
+  position: absolute;
+  background-color: #A60000;
+  width: 600px;
+  height: 80px;
+  top: 148px;
+  left: 230px;
+  border-radius: 80px 80px 0 0;
+}
+
+.tube-bottom{
+  width: 150px;
+  position: absolute;
+  background-color: #A60000;
+  height: 70px;
+  border-radius: 0 0 50px 50px;
+  top: 228px;
+}
+
+.tube-bottom-left{
+  left: 230px;
+}
+
+.tube-bottom-right{
+  left: 680px;
+}
+
+
+.inner-circle{
+  background-color: #ccc;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  line-height: 27px;
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+}
+
+.one{
+  top: -12px;
+  left: 93px;
+}
+
+.two{
+  top: -37px;
+  left: 60px;
+}
+
+.three{
+  top: -40px;
+  left: 20px;
+}
+
+.four{
+  top: -22px;
+  left: -17px;
+}
+
+.five{
+  top: 14px;
+  left: -37px; 
+}
+
+.six{
+  top: 55px;
+  left: -37px;
+}
+
+.seven{
+  top: 90px;
+  left: -17px;
+}
+
+.eight{
+  top: 109px;
+  left: 19px;
+}
+
+.nine{
+  top: 105px;
+  left: 60px;
+}
+
+.nil{
+  top: 80px;
+  left: 95px;
+}
+
+.stop{
+  background-color: black;
+  width: 50px;
+  height: 10px;
+  transform: rotate(14deg);
+  position: absolute;
+  left: 137px;
+  top: 160px;
+}
+
+.inp{
+  position: absolute;
+}
